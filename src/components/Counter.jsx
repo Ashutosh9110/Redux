@@ -4,7 +4,7 @@ import { incrementBy5, decrementBy5 } from "../store/index";
 
 const Counter = () => {
   const dispatch = useDispatch();
-  const counter = useSelector((state) => state.counter);
+  const counter = useSelector((state) => state.counter.counter);
 
   return (
     <main>
